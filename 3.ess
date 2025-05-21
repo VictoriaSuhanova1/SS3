@@ -1,0 +1,28 @@
+start
+
+new AB number
+new BC number
+new CD number
+new AD number
+new Wait number
+
+set AB 5
+set BC 20
+set CD 7
+set AD 50
+set Wait 10
+
+log string "Путь от А до В пешком займет ">>AB>>" минут."
+log string "Придется подождать еще ">>Wait>>" минут."
+log string "Путь от B до C на автобусе займет ">>BC>>" минут."
+log string "Путь от C до D пешком займет ">>CD>>" минут."
+log string "А полный путь пешком от А до D займет">>AD>>" минут."
+
+
+if (AD > CD)
+   log string "Разделив путь получится быстрее"
+else
+   log string "Пройдя весь путь одним маршрутом будет быстрее"
+close
+
+finish
