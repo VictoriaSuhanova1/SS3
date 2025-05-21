@@ -14,8 +14,4 @@ if (x > s)
     log string "он/она НЕ совершеннолетняя и НЕ может купить алкоголь"
 close
   
-if (x = s)
-    log string "мы можем купить этот товар"
-close
-
 finish
