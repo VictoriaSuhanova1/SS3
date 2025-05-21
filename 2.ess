@@ -2,16 +2,17 @@ start
 
 new x number
 new s number
+new x1 number
 
-set x 180
+set x 280
 set s 280
+set x1 x - 1
 
 if (s > x)
     log string "мы можем купить этот товар"
-close
-
-if (x > s)
-    log string "он/она НЕ совершеннолетняя и НЕ может купить алкоголь"
-close
-  
+else
+if (s > x1)
+    log string "алкоголь"
+else 
+  log string "NNNNN"
 finish
