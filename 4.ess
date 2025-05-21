@@ -1,0 +1,30 @@
+start
+
+new a number
+new b number
+new c number
+new d number
+new x number
+
+set a 500
+set b 400
+set c 300
+set d 200
+set x 355
+
+if (x > a)
+  log string "x > всех"
+else
+if (x > b)
+  log string "a > x > b" 
+else
+if (x > c)
+  log string "b > x > c"
+else
+if (x > d)
+  log string "c > x > d"
+else
+  log string "x < всех "
+close
+
+finish
