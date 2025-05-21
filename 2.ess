@@ -12,7 +12,7 @@ if (s > x)
     log string "мы можем купить этот товар"
 else
 if (s > x1)
-    log string "алкоголь"
+    log string "ьф ьожем купить этот товар"
 else 
-  log string "NNNNN"
+  log string "мы не можем купить этот товар"
 finish
