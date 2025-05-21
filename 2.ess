@@ -1,0 +1,21 @@
+start
+
+new x number
+new s number
+
+set x 180
+set s 280
+
+if (s > x)
+    log string "мы можем купить этот товар"
+close
+
+if (x > s)
+    log string "он/она НЕ совершеннолетняя и НЕ может купить алкоголь"
+close
+  
+if (x = s)
+    log string "мы можем купить этот товар"
+close
+
+finish
